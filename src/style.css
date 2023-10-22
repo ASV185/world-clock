@@ -5,6 +5,7 @@ body {
 
 h1 {
   text-align: center;
+  font-weight: bold;
 }
 
 h2 {
@@ -21,7 +22,7 @@ select {
 }
 
 .container {
-  margin: 40px auto;
+  margin: 50px auto;
   background-color: white;
   max-width: 600px;
   padding: 30px;
