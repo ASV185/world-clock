@@ -18,41 +18,47 @@
         <div class="full-container position-absolute mt-3 top-0 start-50 translate-middle-x bg-light rounded">
             <div class="container">
                 <h1>World Clock</h1>
-                <select name="time-zone" id="time-zone">
+
+                <select id="city">
                     <option value="">Select a city</option>
-                    <option value="">Paris</option>
-                    <option value="">Seoul</option>
-                    <option value="">Amsterdam</option>
-                    <option value="">Toronto</option>
-                    <option value="">Singapore</option>
+                    <option value="Europe/Paris">Paris</option>
+                    <option value="Asia/Seoul">Seoul</option>
+                    <option value="Europe/Amsterdam">Amsterdam</option>
+                    <option value="Asia/Singapore">Singapore</option>
+                    <option value="America/Mexico_City">Mexico City</option>
+                    <option value="America/Toronto">Toronto</option>
+
                 </select>
-                <div class="city" id="san-francisco">
-                    <div>
-                        <h2>San Francisco</h2>
-                        <div class="date"></div>
+
+                <div id="cities">
+                    <div class="city" id="san-francisco">
+                        <div>
+                            <h2>San Francisco</h2>
+                            <div class="date"></div>
+                        </div>
+                        <div class="time"></div>
                     </div>
-                    <div class="time"></div>
-                </div>
-                <div class="city" id="madrid">
-                    <div>
-                        <h2>Madrid</h2>
-                        <div class="date"></div>
+                    <div class="city" id="madrid">
+                        <div>
+                            <h2>Madrid</h2>
+                            <div class="date"></div>
+                        </div>
+                        <div class="time"></div>
                     </div>
-                    <div class="time"></div>
-                </div>
-                <div class="city" id="london">
-                    <div>
-                        <h2>London</h2>
-                        <div class="date"></div>
+                    <div class="city" id="london">
+                        <div>
+                            <h2>London</h2>
+                            <div class="date"></div>
+                        </div>
+                        <div class="time"></div>
                     </div>
-                    <div class="time"></div>
-                </div>
-                <div class="city" id="new-york">
-                    <div>
-                        <h2>New York</h2>
-                        <div class="date"></div>
+                    <div class="city" id="new-york">
+                        <div>
+                            <h2>New York</h2>
+                            <div class="date"></div>
+                        </div>
+                        <div class="time"></div>
                     </div>
-                    <div class="time"></div>
                 </div>
             </div>
             <footer class="mb-3 mx-5">
